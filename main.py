@@ -12,7 +12,13 @@ def even_list(int_list: List[int]) -> List[int]:
         A list of even integers.
     """
     # TODO: implement even_list
+    even_numbers = []
 
+    for num in int_list:
+        if num % 2 == 0:
+            even_numbers.append(num)
+
+    return even_numbers
     pass
 
 
